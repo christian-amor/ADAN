@@ -21,4 +21,4 @@ This repository contains a demo of the Autoregressive Dynamics-Aware Network (AD
 
 This demo showcases the prediction of the turbulent kinetic energy in the flow behind a cylinder at Reynolds number Re = 280. The `data/` repository contains the files `DeltasOmegasAmpl_Re280.mat` and `TKE_Re280.txt`. Trained models are saved in the `model/` directory.
 
-Two pretrained models are already included in the `model/` directory. The parameters of the models are already set in the `config` class (for using the model with Bahdanau attention, change `attn_model` to `'BAH'`).
+Two pretrained models are included in the `model/` directory. The parameters of the models are already set in the `config` class (for using the model with Bahdanau attention, change `attn_model` to `'BAH'`).
